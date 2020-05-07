@@ -3,13 +3,6 @@ import path from 'path';
 
 let router = express.Router();
 
-//import utills here
-import {
-    CustomError,
-    ValidationHelper
-} from '../utills';
-
-
 //write your controller function below this
 const ads = async(req, res, next) => {
     try{
